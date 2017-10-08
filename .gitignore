@@ -1,0 +1,7 @@
+node_modules/
+build/
+.DS_Store
+*/**/.DS_Storeb
+npm-debug.log
+.idea/workspace.xml
+.idea/inspectionProfiles/

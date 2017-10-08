@@ -1,0 +1,35 @@
+.page
+{
+    background: #fff;
+
+    &__header
+    {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        &-img
+        {
+            height: 60px;
+            width: auto;
+            flex: 0 0 auto;
+            margin-right: 20px;
+        }
+    }
+
+    &__menu
+    {
+        &-item
+        {
+            &:not(:first-child)
+            {
+                margin-left: 20px;
+            }
+
+            &--active
+            {
+                color: #0f0;
+            }
+        }
+    }
+}

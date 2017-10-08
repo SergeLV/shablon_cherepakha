@@ -1,0 +1,38 @@
+.user-info
+{
+    width: 500px;
+    margin: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+
+    &__row
+    {
+        display: flex;
+        margin-bottom: 20px;
+
+        &-name
+        {
+            flex: 0 0 100px;
+        }
+
+        &-value
+        {
+            flex: 1 1 auto;
+        }
+    }
+
+    &__controls
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    &__error
+    {
+        color: red;
+        padding: 20px 0;
+        font-weight: bold;
+    }
+}
